@@ -1,0 +1,10 @@
+/public
+  ├── index.html         ← HTML template
+  ├── manifest.json      ← Your PWA setup
+  ├── service-worker.js  ← Registered in React
+  └── /icons             ← App icons
+
+/src
+  ├── App.js             ← Main dashboard layout
+  ├── index.js           ← PWA service worker registered here
+  └── components/        ← Place your chart or scanner UI
